@@ -7,7 +7,7 @@ package _02_code_flow._3_pentagon_crazy;
 import org.jointheleague.graphical.robot.Robot;
 import java.awt.Color;
 
-public class PentagonCrazy {
+public class PentagonCrazy2 {
 	
 	public static void main(String[] args) {
 		
@@ -24,18 +24,18 @@ rob.setRandomPenColor();
 int side =5;
 		//  TURN ANGLE. Make another int variable for the angle the robot must turn. 
 		//  			Hint: Divide 360 by the number of sides the shape has to get the angle.
-		int angle=(360/side);
+		int turn=(360/5);
 		//  COUNT. Make another int variable to count how many times the loop has repeated
 		//         Set its start value to zero.
 int counter= 0;
 		//  LOOP. Start a while loop to repeat the DRAW, TURN, and INCREASE COUNT code 200 times. 
-		while (counter<200) {
+		while (counter>5) {
 				//  DRAW.  Make the robot move the amount in your count variable
-		rob.move (counter);
+		rob.draw);
 				//  TURN.  Turn the robot the amount in your angle variable + 1
-rob.turn(+angle);
+
 				//  INCREASE COUNT. Increase the count by 1
-		counter+=1;
+		
 		//  End the while loop here
 
 		//  Now hide the robot so you can see the pattern it has drawn.
@@ -49,6 +49,6 @@ rob.turn(+angle);
 	// *12. make the pattern really huge
 	// *13. randomize the color of the pattern 
 	// *14. experiment with different shapes
-		}
+
 	}
 }
