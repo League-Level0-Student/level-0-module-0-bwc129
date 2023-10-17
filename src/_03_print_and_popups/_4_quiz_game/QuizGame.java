@@ -1,5 +1,7 @@
 package _03_print_and_popups._4_quiz_game;
 
+import javax.swing.JOptionPane;
+
 public class QuizGame {
 	public static void main(String[] args) {
 		
@@ -8,7 +10,7 @@ public class QuizGame {
 		// ASK A QUESTION AND CHECK THE ANSWER
 		
 				// 2.  Ask the user a question 
-				
+		String question = JOptionPane.showInputDialog("What is 1+1?");
 				// 3.  Use an if statement to check if their answer is correct
 				
 				// 4.  if the user's answer was correct, add one to their score 
