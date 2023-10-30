@@ -9,6 +9,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 
 import javax.imageio.ImageIO;
+import javax.print.attribute.IntegerSyntax;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.JFrame;
@@ -72,8 +73,8 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		}
 		
 		
-		//7. Make a new int variable for the background color of the maze
-
+		//7. Make a new int variable for the background color of the maze.
+		
 		
 		//8. Run the program and move the mouse over the BACKGROUND COLOR. 
 		//   Use the number that is printed to the console to set the background color variable 
