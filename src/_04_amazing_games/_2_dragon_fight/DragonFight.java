@@ -50,9 +50,9 @@ int dragonHealth=100;
 			// THE DRAGON RETALIATES
 
 				// 7. Find a random number between 0 and 35 and store it in dragonAttack
-	dragonAttack=ran.nextInt(75);
+playerHealth-=ran.nextInt(75);{
 				// 8. Subtract the dragon attack value from the player's health
-dragonAttack -=playerHealth;
+}dragonAttack -=playerHealth;
 			// ASSESS THE DAMAGE
 
 				// 9. If the player's health is less than or equal to 0, the game is over,
